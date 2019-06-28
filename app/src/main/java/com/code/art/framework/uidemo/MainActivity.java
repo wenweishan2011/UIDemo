@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.code.art.framework.uidemo.animation.ObjectAnimatorActivity;
 import com.code.art.framework.uidemo.animation.ValueAnimatorActivity;
 
 /**
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, ValueAnimatorActivity.class));
                 break;
             case R.id.objectAnimator:
+                startActivity(new Intent(this, ObjectAnimatorActivity.class));
                 break;
             default:
         }
