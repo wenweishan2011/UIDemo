@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.code.art.framework.uidemo.animation.ObjectAnimatorActivity;
 import com.code.art.framework.uidemo.animation.ValueAnimatorActivity;
+import com.code.art.framework.uidemo.draw.DrawViewActivity;
 
 /**
  * @author wenws
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.valueAnimator).setOnClickListener(this);
         findViewById(R.id.objectAnimator).setOnClickListener(this);
+        findViewById(R.id.drawView).setOnClickListener(this);
 
     }
 
@@ -32,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.objectAnimator:
                 startActivity(new Intent(this, ObjectAnimatorActivity.class));
+                break;
+            case R.id.drawView:
+                startActivity(new Intent(this, DrawViewActivity.class));
                 break;
             default:
         }

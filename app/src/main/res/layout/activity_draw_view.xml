@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.code.art.framework.uidemo.draw.CurveView
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <com.code.art.framework.uidemo.draw.WritingBoardView
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <com.code.art.framework.uidemo.draw.WaveView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
